@@ -1,0 +1,30 @@
+.cajas {
+    display: grid;
+    grid-gap: 40px;
+    justify-content: center;
+    grid-template-columns: 190px 190px 190px 190px 190px;
+    .cajas__img {
+        background-color: rgb(79, 77, 80);
+        color: #fff;
+        border-radius: 5px;
+        padding: 2px;
+        margin: 10px 0px 10px 0px;
+    }
+}
+.tips {
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    text-transform: capitalize;
+    margin: 20px;
+    .tips__titulo {
+        font-size: 20px;
+        margin: 10px; }
+          .tips__cuidados {
+           margin: 40px;
+            .tips__video {
+             margin: 10px;
+        }
+        
+    }
+}
+

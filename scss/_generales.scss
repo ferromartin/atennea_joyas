@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Kanit', sans-serif;
+    width: 100S;
+    .logo__ubicacion{ 
+        display: flex;
+        justify-content: center;
+        margin: 7px 0px 20px;
+        }
+}
+.header__flexbox {
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-end;
+    text-transform: uppercase;
+    height: 40px;
+    .navbar-light .navbar-nav .nav-link {
+        color: #0f0f0f;
+        text-decoration: solid;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 2.5rem;
+        padding-left: 2.5rem; 
+    }
+}
+
+/*-----------------------------section-----------------------------*/
+.titulo {
+    background: linear-gradient(to left top, #9e9e9e, #f1f9ff, #9e9e9e);
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 15px;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 0px;
+}
+h1 {
+    color: #855085;
+    font-style: italic;
+    text-align: center;
+    font-size: 30px
+}
+.subTitulo {
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    font-size: 25px;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 10px;
+}
+h2 {
+    color: rgb(137, 32, 158);
+}
+/*----bucle margin----*/
+$margin: 5px;
+
+@for $i from 1 to 7 { 
+    .m-#{$i} {
+        margin: $margin * $i;
+    }
+}
+/*----mixin contacto----*/
+@mixin boton { 
+    background: linear-gradient(to left top, #bdc3c7, #454d55);
+    border-radius: 5px;
+    width: auto;
+    cursor: pointer;
+}
+
+

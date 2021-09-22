@@ -1,0 +1,43 @@
+.error404{ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    border-top: black solid 1.5px;
+    height: 386px;
+       .error404_img { 
+        margin-top: 29px; }
+        .error404_titulo { 
+            text-transform: uppercase;
+            font-size: 70px;
+            font-weight: bold;
+            color: rgb(47, 111, 163);
+            margin-top: 20px;
+            .error404_descripcion{ 
+                color:  black;
+                font-weight: bold;
+                text-transform: capitalize;
+                font-size: 20px;
+                margin:20px 0px 30px; }               
+        }
+        .error404_boton{    
+            max-width: 600px;
+            display: flex;
+            justify-content: flex-end;
+            .error404_inicio { 
+                border: solid rgb(74, 123, 163) ;
+                background-color:rgb(74, 123, 163) ;
+                color: rgb(12, 12, 12);
+                font-size: 18px bold;
+                padding: 5px;
+                text-decoration: none;
+                letter-spacing: 2px;
+                border-radius: 10px 30px; 
+                &:hover { 
+                    transform: translateX(-2px);
+                    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+                }
+            }
+        }
+}
+
+

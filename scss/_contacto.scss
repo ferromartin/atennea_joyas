@@ -1,0 +1,37 @@
+.imagenFondoContacto {
+    background-image: url(https://i.pinimg.com/originals/19/0d/e6/190de6003cc165f17c0f8639281c30c3.jpg);
+    background-size: cover;
+    .seccionContacto1 {
+        background: linear-gradient(to left top, #c7889d, #b476b8);
+        width: 320px;
+        border-radius: 4px;
+        box-shadow: 20px 20px 70px 20px black;
+        margin: 18%;
+        margin-top: 3%;
+        text-transform: capitalize;
+        text-decoration: solid;
+        .tituloFormulario {
+            font-size: 20px;
+            text-align: center;
+            text-transform: capitalize;
+            color: black;
+            letter-spacing: 3px;
+            padding: 5px;
+            border-style: double; }
+            .m-1 { 
+                 div { 
+                 padding: 2px; }
+                    .areaTexto {
+                     background-color: rgb(240, 240, 240);
+                        }
+            }       
+            .botonContacto {
+                @include boton ;
+                &:hover { 
+                transform: translateX(-2px);
+                transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+            }
+           }
+    }
+       
+}

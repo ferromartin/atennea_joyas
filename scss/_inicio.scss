@@ -1,0 +1,28 @@
+/*-----------------------------section-----------------------------*/
+.carousel-item {
+    position:relative;
+    display: none;
+    float:center;
+    width: 95%;
+    margin: 10px 0px 20px 30px;
+     }
+.imagenInicio2 {
+    margin: 20px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    }
+/*-----------------------------footer-----------------------------*/
+footer {
+    background-color: rgba(12, 12, 12, 0.925);
+    .footerFlexBox {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        p {
+            margin: 15px;
+            color: white;
+        }
+    }
+}
+
