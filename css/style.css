@@ -45,6 +45,13 @@
   padding-left: 2.5rem;
 }
 
+.nav-link:hover {
+  -webkit-transform: translateX(-2px);
+          transform: translateX(-2px);
+  -webkit-transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+}
+
 /*-----------------------------section-----------------------------*/
 .titulo {
   background: -webkit-gradient(linear, right bottom, left top, from(#9e9e9e), color-stop(#f1f9ff), to(#9e9e9e));
