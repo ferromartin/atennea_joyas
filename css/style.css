@@ -272,6 +272,8 @@ footer .footerFlexBox p {
   transition: cubic-bezier(0.04, 0.04, 0.88, 0.88) 0.5s;
   border: 1.5px solid #000;
   margin: 20px;
+  -webkit-box-shadow: 2px 2px 60px 2px #363535;
+          box-shadow: 2px 2px 60px 2px #363535;
 }
 
 .productos img {
@@ -283,11 +285,14 @@ footer .footerFlexBox p {
   color: black;
   text-transform: capitalize;
   font-size: 20px;
+  margin-top: 10px;
 }
 
 .productos p {
   text-align: center;
   text-transform: capitalize;
+  color: #1c1c9c;
+  font-size: 16px;
 }
 
 /*-----------------------------section-----------------------------*/

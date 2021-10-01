@@ -8,11 +8,13 @@
     justify-content: space-around;
     align-items: flex-end;
     margin: 30px;
+       
     .productos__contenedor:hover {
         transform: scale(1.1);
         transition: cubic-bezier(.04,.04,.88,.88) .50s;
         border: 1.5px solid #000;
         margin: 20px;
+        box-shadow: 2px 2px 60px 2px rgb(54, 53, 53);
     }
     img {
         width: 200px;
@@ -22,10 +24,13 @@
         color: black;
         text-transform: capitalize;
         font-size: 20px;
+        margin-top: 10px;
     }
     p {
         text-align: center;
         text-transform: capitalize;
+        color: rgb(28, 28, 156);
+        font-size: 16px;
     }
 }
 
