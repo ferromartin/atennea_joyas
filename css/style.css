@@ -262,6 +262,7 @@ footer .footerFlexBox p {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  text-align: center;
   margin: 30px;
 }
 
@@ -277,7 +278,7 @@ footer .footerFlexBox p {
 }
 
 .productos img {
-  width: 200px;
+  width: 270px;
 }
 
 .productos h2 {
@@ -291,8 +292,9 @@ footer .footerFlexBox p {
 .productos p {
   text-align: center;
   text-transform: capitalize;
-  color: #1c1c9c;
+  color: #161688;
   font-size: 16px;
+  opacity: 0.5;
 }
 
 /*-----------------------------section-----------------------------*/
