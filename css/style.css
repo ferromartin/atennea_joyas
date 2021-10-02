@@ -117,8 +117,8 @@ h2 {
   position: relative;
   display: none;
   float: center;
-  width: 95%;
-  margin: 10px 0px 20px 30px;
+  width: 100%;
+  margin: 10px 0px 20px 0px;
 }
 
 .imagenInicio2 {
@@ -163,8 +163,8 @@ footer .footerFlexBox p {
 }
 
 .imagenFondoContacto .seccionContacto1 {
-  background: -webkit-gradient(linear, right bottom, left top, from(#c7889d), to(#b476b8));
-  background: linear-gradient(to left top, #c7889d, #b476b8);
+  background: -webkit-gradient(linear, right bottom, left top, from(#d19bad), to(#c986ce));
+  background: linear-gradient(to left top, #d19bad, #c986ce);
   width: 320px;
   border-radius: 4px;
   -webkit-box-shadow: 20px 20px 70px 20px black;
@@ -174,13 +174,14 @@ footer .footerFlexBox p {
   text-transform: capitalize;
   -webkit-text-decoration: solid;
           text-decoration: solid;
+  padding: 5px;
 }
 
 .imagenFondoContacto .seccionContacto1 .tituloFormulario {
   font-size: 20px;
   text-align: center;
   text-transform: capitalize;
-  color: black;
+  color: whitesmoke;
   letter-spacing: 3px;
   padding: 5px;
   border-style: double;

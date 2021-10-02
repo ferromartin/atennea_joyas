@@ -2,7 +2,7 @@
     background-image: url(https://i.pinimg.com/originals/19/0d/e6/190de6003cc165f17c0f8639281c30c3.jpg);
     background-size: cover;
     .seccionContacto1 {
-        background: linear-gradient(to left top, #c7889d, #b476b8);
+        background: linear-gradient(to left top, #d19bad, #c986ce);
         width: 320px;
         border-radius: 4px;
         box-shadow: 20px 20px 70px 20px black;
@@ -10,11 +10,12 @@
         margin-top: 3%;
         text-transform: capitalize;
         text-decoration: solid;
+        padding: 5px;
         .tituloFormulario {
             font-size: 20px;
             text-align: center;
             text-transform: capitalize;
-            color: black;
+            color: whitesmoke;
             letter-spacing: 3px;
             padding: 5px;
             border-style: double; }
