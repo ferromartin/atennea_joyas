@@ -20,16 +20,18 @@
             border-style: double; }
             .m-1 { 
                  div { 
-                 padding: 2px; }
+                 padding: 2px;}
                     .areaTexto {
                      background-color: rgb(240, 240, 240);
-                        }
+                     border-style: none; }
             }       
             .botonContacto {
+                padding: 5px;
                 @include boton ;
                 &:hover { 
                 transform: translateX(-2px);
                 transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+               
             }
            }
     }

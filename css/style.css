@@ -192,9 +192,11 @@ footer .footerFlexBox p {
 
 .imagenFondoContacto .seccionContacto1 .m-1 .areaTexto {
   background-color: #f0f0f0;
+  border-style: none;
 }
 
 .imagenFondoContacto .seccionContacto1 .botonContacto {
+  padding: 5px;
   background: -webkit-gradient(linear, right bottom, left top, from(#bdc3c7), to(#454d55));
   background: linear-gradient(to left top, #bdc3c7, #454d55);
   border-radius: 5px;
