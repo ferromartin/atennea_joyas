@@ -367,6 +367,54 @@ footer .footerFlexBox p {
   margin: 10px;
 }
 
+@media (max-width: 768px) {
+  .cajas {
+    grid-gap: 20px;
+    -ms-grid-columns: 120px 120px 120px 120px 120px;
+        grid-template-columns: 120px 120px 120px 120px 120px;
+  }
+  .cajas .cajas__img {
+    width: 120px;
+  }
+  .tips .tips__cuidados .tips__video {
+    width: 300px;
+    height: 200px;
+  }
+  .tips .tips__titulo {
+    font-size: 14px;
+  }
+  p {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 375px) {
+  .cajas {
+    grid-gap: 7px;
+    -ms-grid-columns: 60px 60px 60px 60px 60px;
+        grid-template-columns: 60px 60px 60px 60px 60px;
+  }
+  .cajas .cajas__img {
+    width: 60px;
+  }
+  .tips .tips__cuidados .tips__video {
+    width: 200px;
+    height: 100px;
+  }
+  .tips .tips__cuidados {
+    margin: 40px 0px 0px;
+  }
+  .tips {
+    margin: -30px 0px 0px 0px;
+  }
+  .tips .tips__titulo {
+    font-size: 11px;
+  }
+  p {
+    font-size: 9px;
+  }
+}
+
 .imagenFondoProductos {
   background-image: url(https://p4.wallpaperbetter.com/wallpaper/426/246/444/marble-cool-pictures-wallpaper-preview.jpg);
   background-size: cover;
