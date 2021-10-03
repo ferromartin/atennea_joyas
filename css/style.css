@@ -328,6 +328,64 @@ footer .footerFlexBox p {
   transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
 }
 
+@media (max-width: 768px) {
+  .imagenFondoContacto .seccionContacto1 {
+    width: 250px;
+    margin: 5%;
+  }
+  .imagenFondoContacto .seccionContacto1 .tituloFormulario {
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding: 3px;
+  }
+  .imagenFondoContacto .seccionContacto1 .m-1 .areaTexto {
+    width: 160px;
+  }
+  .imagenFondoContacto .seccionContacto1 .botonContacto {
+    padding: 2px;
+  }
+  .mapaContacto {
+    width: 230px;
+  }
+  p {
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 375px) {
+  .imagenFondoContacto .seccionContacto1 {
+    width: 220px;
+    margin: 2%;
+  }
+  .imagenFondoContacto .seccionContacto1 .tituloFormulario {
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 1.5px;
+  }
+  .imagenFondoContacto .seccionContacto1 .m-1 .areaTexto {
+    width: 130px;
+  }
+  .areaTexto1 {
+    width: 8px;
+  }
+  .textoContacto {
+    font-size: 10px;
+  }
+  .imagenFondoContacto .seccionContacto1 .botonContacto {
+    padding: 2px;
+    font-size: 9px;
+  }
+  .mapaContacto {
+    width: 190px;
+    height: 100px;
+  }
+  p {
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+}
+
 .cajas {
   display: -ms-grid;
   display: grid;
