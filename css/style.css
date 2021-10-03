@@ -30,7 +30,7 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  text-transform: uppercase;
+  text-transform: capitalize;
   height: 40px;
 }
 
@@ -112,6 +112,78 @@ h2 {
 }
 
 /*----mixin contacto----*/
+@media (max-width: 780px) {
+  .logo__ubicacion img {
+    width: 150px;
+    margin-top: 0px;
+  }
+  .navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0);
+  }
+  .navbar-light .navbar-toggler-icon {
+    height: 10px;
+    width: 15px;
+  }
+  .nav-link {
+    padding: .05rem .05rem;
+  }
+  .header__flexbox .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  .header__flexbox {
+    font-size: 9px;
+    max-height: 0px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .navbar-toggler {
+    padding: 0px;
+  }
+  .titulo {
+    letter-spacing: 8px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .logo__ubicacion img {
+    width: 100px;
+    margin-top: 0px;
+  }
+  .navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0);
+  }
+  .navbar-light .navbar-toggler-icon {
+    height: 6px;
+    width: 8px;
+  }
+  .navbar-nav {
+    width: 100px;
+  }
+  .nav-link {
+    padding: .08rem .08rem;
+  }
+  .header__flexbox .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  .header__flexbox {
+    max-height: 28px;
+    margin-top: -10px;
+    -webkit-margin-after: -5px;
+            margin-block-end: -5px;
+  }
+  .navbar-toggler {
+    padding: 0px;
+  }
+  .titulo {
+    letter-spacing: 8px;
+    font-size: 10px;
+  }
+}
+
 /*-----------------------------section-----------------------------*/
 .carousel-item {
   position: relative;
@@ -155,6 +227,44 @@ footer .footerFlexBox {
 footer .footerFlexBox p {
   margin: 15px;
   color: white;
+}
+
+@media (max-width: 780px) {
+  .carousel-item {
+    max-width: 100%;
+    margin: 10px 0px 10px 0px;
+  }
+  .imagenInicio2 img {
+    max-width: 700px;
+  }
+  .subTitulo {
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .carousel-item {
+    max-height: 200px;
+    max-width: 350px;
+  }
+  .imagenInicio2 img {
+    margin: 0px 0px 0px 0px;
+    max-height: 150px;
+    max-width: 350px;
+  }
+  .imagenInicio2 {
+    margin: 0px;
+  }
+  .carousel-item img {
+    max-height: 200px;
+  }
+  .subTitulo {
+    margin-top: 10px;
+    letter-spacing: 2px !important;
+    font-size: 10px;
+  }
 }
 
 .imagenFondoContacto {

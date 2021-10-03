@@ -1,24 +1,28 @@
 /*-----------------------------section-----------------------------*/
 .carousel-item {
-    position:relative;
+    position: relative;
     display: none;
-    float:center;
+    float: center;
     width: 100%;
     margin: 10px 0px 20px 0px;
-     }
+}
+
 .imagenInicio2 {
     margin: 20px 0px 10px 0px;
     display: flex;
     justify-content: center;
-    }
+}
+
 /*-----------------------------footer-----------------------------*/
 footer {
     background-color: rgba(12, 12, 12, 0.925);
+
     .footerFlexBox {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
+
         p {
             margin: 15px;
             color: white;
@@ -26,3 +30,44 @@ footer {
     }
 }
 
+@media (max-width: 780px) {
+    .carousel-item {
+        max-width: 100%;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .imagenInicio2 img {
+        max-width: 700px;
+    }
+    .subTitulo {
+        margin-top: 10px;
+        letter-spacing: 2px ;
+        font-size: 14px;
+
+    }
+}
+
+@media (max-width: 375px) {
+    .carousel-item {
+        max-height: 200px;
+        max-width: 350px;
+    }
+    .imagenInicio2 img {
+        margin: 0px 0px 0px 0px;
+        max-height: 150px;
+        max-width: 350px;
+    }
+    .imagenInicio2 {
+        margin: 0px;
+    }
+    .carousel-item img {
+        max-height: 200px
+    }
+    .subTitulo {
+        margin-top: 10px;
+        letter-spacing: 2px !important;
+        font-size: 10px;
+
+    }
+
+}
