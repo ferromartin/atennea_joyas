@@ -534,18 +534,22 @@ footer .footerFlexBox p {
 }
 
 @media (max-width: 768px) {
+  .productos__contenedor {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
   .productos {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     margin: 25px;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .productos img {
     width: 300px;
+    margin: 15px;
   }
   .productos h2 {
     font-size: 14px;

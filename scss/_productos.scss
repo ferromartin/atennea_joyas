@@ -37,12 +37,14 @@
 }
 
 @media (max-width: 768px) {
-.productos {
-    align-items: center;
+.productos__contenedor { flex-basis: 50%;}
+    .productos {
     margin: 25px;
-    flex-direction: column; }
+    flex-direction: row; 
+    flex-wrap:wrap ;  }
     .productos img {
-        width: 300px; }
+        width: 300px; 
+        margin: 15px;}
         .productos h2 {
             font-size: 14px;
             .productos p {
