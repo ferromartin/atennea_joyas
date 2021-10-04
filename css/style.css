@@ -253,7 +253,7 @@ footer .footerFlexBox p {
 @media (max-width: 375px) {
   .carousel-item {
     max-height: 200px;
-    max-width: 350px;
+    max-width: 100%;
   }
   .imagenInicio2 img {
     margin: 0px 0px 0px 0px;
