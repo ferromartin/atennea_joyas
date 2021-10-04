@@ -171,9 +171,10 @@ h2 {
   }
   .header__flexbox {
     max-height: 28px;
-    margin-top: -10px;
+    margin-top: -25px;
     -webkit-margin-after: -5px;
             margin-block-end: -5px;
+    font-size: 7px;
   }
   .navbar-toggler {
     padding: 0px;
@@ -244,9 +245,9 @@ footer .footerFlexBox p {
             margin-block-end: 22px;
   }
   .subTitulo {
-    margin-top: 10px;
-    letter-spacing: 2px;
-    font-size: 14px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-size: 18px;
   }
 }
 
@@ -440,6 +441,9 @@ footer .footerFlexBox p {
   }
   .tips .tips__titulo {
     font-size: 14px;
+  }
+  .tips .tips__cuidados {
+    margin: 40px 0px 10px 0px;
   }
   p {
     font-size: 11px;
