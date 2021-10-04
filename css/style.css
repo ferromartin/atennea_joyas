@@ -112,7 +112,7 @@ h2 {
 }
 
 /*----mixin contacto----*/
-@media (max-width: 780px) {
+@media (max-width: 768px) {
   .logo__ubicacion img {
     width: 150px;
     margin-top: 0px;
@@ -258,8 +258,8 @@ footer .footerFlexBox p {
   }
   .imagenInicio2 img {
     margin: 0px 0px 0px 0px;
-    max-height: 150px;
-    max-width: 350px;
+    height: auto;
+    max-width: 100%;
   }
   .imagenInicio2 {
     margin: 20px 0px 20px 0px;
@@ -271,6 +271,11 @@ footer .footerFlexBox p {
     margin-top: 5px;
     letter-spacing: 2px !important;
     font-size: 10px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
   }
 }
 

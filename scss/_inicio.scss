@@ -57,8 +57,8 @@ footer {
     }
     .imagenInicio2 img {
         margin: 0px 0px 0px 0px;
-        max-height: 150px;
-        max-width: 350px;
+        height: auto;
+        max-width: 100%;
     }
     .imagenInicio2 {
         margin: 20px 0px 20px 0px;
@@ -70,7 +70,8 @@ footer {
         margin-top: 5px;
         letter-spacing: 2px !important;
         font-size: 10px;
-
     }
-
+.footer { position: absolute;
+bottom: 0%;
+width: 100%;}
 }
