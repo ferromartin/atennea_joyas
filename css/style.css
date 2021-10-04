@@ -514,11 +514,11 @@ footer .footerFlexBox p {
   margin-top: 10px;
 }
 
-.productos p {
+.productos .productos__precio {
   text-align: center;
   text-transform: capitalize;
   color: #161688;
-  font-size: 16px;
+  font-size: 17px;
   opacity: 0.5;
 }
 

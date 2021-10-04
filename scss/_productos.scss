@@ -16,11 +16,9 @@
         border: 1.5px solid #000;
         margin: 20px;
         box-shadow: 2px 2px 60px 2px rgb(54, 53, 53);
-        
     }
     img {
         width: 270px;
-        
     }
     h2 {
         text-align: center;
@@ -29,14 +27,15 @@
         font-size: 20px;
         margin-top: 10px;
     }
-    p {
+    .productos__precio {
         text-align: center;
         text-transform: capitalize;
         color: rgb(22, 22, 136);
-        font-size: 16px;
+        font-size: 17px;
         opacity: 0.5;
     }
 }
+
 @media (max-width: 768px) {
 .productos {
     align-items: center;
