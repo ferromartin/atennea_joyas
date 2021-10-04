@@ -233,16 +233,17 @@ footer .footerFlexBox p {
 @media (max-width: 768px) {
   .carousel-item {
     max-width: 100%;
-    height: 400px;
+    height: auto;
   }
   .carousel-item img {
     max-height: 450px;
   }
   .imagenInicio2 img {
-    width: 700px;
-    height: 320px;
+    width: 100%;
+    height: auto;
     -webkit-margin-after: 22px;
             margin-block-end: 22px;
+    margin-top: 20px;
   }
   .subTitulo {
     margin-top: 20px;
