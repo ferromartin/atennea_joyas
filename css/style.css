@@ -32,15 +32,16 @@
           align-items: flex-end;
   text-transform: capitalize;
   height: 40px;
+  font-size: 16px;
 }
 
-.header__flexbox .navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link {
   color: #0f0f0f;
   -webkit-text-decoration: solid;
           text-decoration: solid;
 }
 
-.header__flexbox .navbar-expand-lg .navbar-nav .nav-link {
+.navbar-expand-lg .navbar-nav .nav-link {
   padding-right: 2.5rem;
   padding-left: 2.5rem;
 }
