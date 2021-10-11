@@ -32,7 +32,7 @@
           align-items: flex-end;
   text-transform: capitalize;
   height: 40px;
-  font-size: 20px;
+  font-size: 21px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -113,6 +113,37 @@ h2 {
 }
 
 /*----mixin contacto----*/
+@media (max-width: 991px) {
+  .navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0);
+  }
+  .navbar-light .navbar-toggler-icon {
+    height: 10px;
+    width: 15px;
+  }
+  .nav-link {
+    padding: .05rem .05rem;
+  }
+  .header__flexbox .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  .header__flexbox {
+    font-size: 15px;
+    max-height: 20px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .navbar-toggler {
+    padding: 0px;
+  }
+  .titulo {
+    letter-spacing: 8px;
+    font-size: 18px;
+  }
+}
+
 @media (max-width: 768px) {
   .logo__ubicacion img {
     width: 150px;
@@ -148,7 +179,7 @@ h2 {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 420px) {
   .logo__ubicacion img {
     width: 100px;
     margin-top: 0px;
@@ -237,17 +268,23 @@ footer .footerFlexBox p {
   color: white;
 }
 
+@media (max-width: 991px) {
+  .subTitulo {
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 768px) {
   .carousel-item {
     max-width: 100%;
     height: auto;
   }
   .imagenInicio2 img {
-    width: 100%;
-    height: auto;
     -webkit-margin-after: 22px;
             margin-block-end: 22px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .subTitulo {
     margin-top: 20px;
@@ -256,11 +293,7 @@ footer .footerFlexBox p {
   }
 }
 
-@media (max-width: 375px) {
-  .carousel-item {
-    max-height: 200px;
-    max-width: 100%;
-  }
+@media (max-width: 420px) {
   .imagenInicio2 img {
     margin: 0px 0px 0px 0px;
     height: auto;
@@ -269,18 +302,20 @@ footer .footerFlexBox p {
   .imagenInicio2 {
     margin: 20px 0px 20px 0px;
   }
-  .carousel-item img {
-    max-height: 200px;
-  }
   .subTitulo {
     margin-top: 5px;
-    letter-spacing: 2px !important;
+    letter-spacing: 2px;
     font-size: 10px;
   }
   .footer {
+    height: 40px;
     bottom: 0%;
     width: 100%;
   }
+}
+
+.footerFlexBox img {
+  width: 15px;
 }
 
 .imagenFondoContacto {
