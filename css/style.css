@@ -32,7 +32,7 @@
           align-items: flex-end;
   text-transform: capitalize;
   height: 40px;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -61,7 +61,7 @@
   text-align: center;
   text-transform: capitalize;
   letter-spacing: 15px;
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Kanit', sans-serif;
   margin-top: 0px;
 }
@@ -78,9 +78,9 @@ h1 {
   text-align: center;
   text-transform: capitalize;
   letter-spacing: 10px;
-  font-size: 25px;
+  font-size: 28px;
   font-family: 'Kanit', sans-serif;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 h2 {
@@ -192,17 +192,22 @@ h2 {
   display: none;
   float: center;
   width: 100%;
+  height: auto;
   margin: 10px 0px 20px 0px;
 }
 
 .imagenInicio2 {
-  margin: 20px 0px 10px 0px;
+  margin: 30px 0px 10px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.imagenInicio2 img {
+  max-width: 100%;
 }
 
 /*-----------------------------footer-----------------------------*/
@@ -224,6 +229,7 @@ footer .footerFlexBox {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-size: 18px;
 }
 
 footer .footerFlexBox p {
@@ -235,9 +241,6 @@ footer .footerFlexBox p {
   .carousel-item {
     max-width: 100%;
     height: auto;
-  }
-  .carousel-item img {
-    max-height: 450px;
   }
   .imagenInicio2 img {
     width: 100%;
@@ -275,7 +278,6 @@ footer .footerFlexBox p {
     font-size: 10px;
   }
   .footer {
-    position: absolute;
     bottom: 0%;
     width: 100%;
   }

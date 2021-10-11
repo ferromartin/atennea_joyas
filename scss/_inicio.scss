@@ -4,15 +4,18 @@
     display: none;
     float: center;
     width: 100%;
+    height: auto;
     margin: 10px 0px 20px 0px;
 }
 
 .imagenInicio2 {
-    margin: 20px 0px 10px 0px;
+    margin: 30px 0px 10px 0px;
     display: flex;
     justify-content: center;
+    }
+.imagenInicio2 img { 
+    max-width: 100%;
 }
-
 /*-----------------------------footer-----------------------------*/
 footer {
     background-color: rgba(12, 12, 12, 0.925);
@@ -22,6 +25,7 @@ footer {
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        font-size: 18px;
 
         p {
             margin: 15px;
@@ -35,9 +39,7 @@ footer {
         max-width: 100%;
         height: auto;
     }
-    .carousel-item img {
-        max-height: 450px;
-    }
+    
     .imagenInicio2 img {
         width: 100%;
         height: auto;
@@ -73,7 +75,7 @@ footer {
         font-size: 10px;
     }
     .footer { 
-        position: absolute;
+        
         bottom: 0%;
         width: 100%;}
     }
