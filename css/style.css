@@ -465,7 +465,8 @@ footer .footerFlexBox p {
   text-align: center;
   font-family: 'Kanit', sans-serif;
   text-transform: capitalize;
-  margin: 0px 40px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .tips .tips__titulo {
