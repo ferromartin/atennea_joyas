@@ -17,7 +17,7 @@
            margin: 0px;
            padding: 2px;
            word-spacing: 5px;
-           font-size: 20px;
+           font-size: 17px;
            font-style: italic;
            background-image: url(https://media.istockphoto.com/videos/loopable-soft-background-video-id939273066?s=640x640);
            background-size:cover;
@@ -31,10 +31,10 @@
         width: 300px;
         padding: 2px;
         word-spacing: 1px;
-        font-size: 10px;
+        font-size: 13px;
     }
 }
-@media (max-width: 375px) { 
+@media (max-width: 420px) { 
     .quienesSomos {
         margin: 10px 7px;
         align-items: flex-start; }
@@ -42,5 +42,5 @@
         width: 250px;
         padding: 1.5px;
         word-spacing: 0px;
-        font-size: 8px; }
+        font-size: 9px; }
 }
