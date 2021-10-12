@@ -206,7 +206,7 @@ h2 {
     margin-top: -25px;
     -webkit-margin-after: -5px;
             margin-block-end: -5px;
-    font-size: 7px;
+    font-size: 7.5px;
   }
   .navbar-toggler {
     padding: 0px;
@@ -291,6 +291,9 @@ footer .footerFlexBox p {
     letter-spacing: 3px;
     font-size: 18px;
   }
+  p {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 420px) {
@@ -312,10 +315,12 @@ footer .footerFlexBox p {
     bottom: 0%;
     width: 100%;
   }
-}
-
-.footerFlexBox img {
-  width: 15px;
+  .footerFlexBox img {
+    width: 15px;
+  }
+  p {
+    font-size: 8px;
+  }
 }
 
 .imagenFondoContacto {

@@ -55,7 +55,9 @@ footer {
         letter-spacing: 3px ;
         font-size: 18px;
     }
+    p { font-size: 12px;}
 }
+
 
 @media (max-width: 420px) {
     
@@ -77,5 +79,7 @@ footer {
         height: 40px;
         bottom: 0%;
         width: 100%;}
-    }
+    
     .footerFlexBox img { width: 15px;}
+    p { font-size: 8px;}
+ }
