@@ -41,8 +41,9 @@
             justify-content: space-evenly;
             align-items: center;
             border-top: black solid 1.5px;
-            min-height: 67vh;
+            min-height: 69vh;
             margin: 20px 0px 0px 0px;
+            bottom: 0%;
             
           }
           .error404_img {
@@ -77,15 +78,11 @@
             letter-spacing: 2px;
             border-radius: 10px 30px;
           }
-          :hover {
-            transform: translateX(-2px);
-            transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
-          }
+          
           footer {
             background-color: rgba(12, 12, 12, 0.925);
-            position: absolute;
+            position: relative;
             bottom: 0%;
-            width: 100%;
           }
           .footerFlexBox {
             display: flex;
@@ -97,6 +94,7 @@
             margin: 15px;
             color: white;
           }
+          @media (max-width: 768px) { }
         </style>
         <title>error404</title>
     </head>

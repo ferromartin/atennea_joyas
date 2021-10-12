@@ -24,23 +24,3 @@
           
         }
 }
-@media (max-width: 768px) { 
-    .quienesSomos {
-        margin: 20px 10px; }
-    .quienesSomos .quienesSomos__parrafo {
-        width: 300px;
-        padding: 2px;
-        word-spacing: 1px;
-        font-size: 13px;
-    }
-}
-@media (max-width: 420px) { 
-    .quienesSomos {
-        margin: 10px 7px;
-        align-items: flex-start; }
-    .quienesSomos .quienesSomos__parrafo {
-        width: 250px;
-        padding: 1.5px;
-        word-spacing: 0px;
-        font-size: 9px; }
-}
