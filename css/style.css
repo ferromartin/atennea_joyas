@@ -359,68 +359,6 @@ footer .footerFlexBox p {
   background-size: cover;
 }
 
-.error404 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-top: black solid 1.5px;
-  min-height: 67vh;
-}
-
-.error404 .error404_img {
-  margin: 0px 0px 0px;
-}
-
-.error404 .error404_titulo {
-  text-transform: uppercase;
-  font-size: 70px;
-  font-weight: bold;
-  color: #2f6fa3;
-  margin-top: 20px;
-}
-
-.error404 .error404_titulo .error404_descripcion {
-  color: black;
-  font-weight: bold;
-  text-transform: capitalize;
-  font-size: 20px;
-  margin: 20px 0px 30px;
-}
-
-.error404 .error404_boton {
-  max-width: 600px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.error404 .error404_boton .error404_inicio {
-  border: solid #4a7ba3;
-  background-color: #4a7ba3;
-  color: #0c0c0c;
-  font-size: 18px bold;
-  padding: 5px;
-  text-decoration: none;
-  letter-spacing: 2px;
-  border-radius: 10px 30px;
-}
-
-.error404 .error404_boton .error404_inicio:hover {
-  -webkit-transform: translateX(-2px);
-          transform: translateX(-2px);
-  -webkit-transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
-  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
-}
-
 @media (max-width: 991px) {
   .subTitulo {
     margin-top: 20px;
