@@ -48,6 +48,7 @@
           }
           .error404_img {
             margin: 0px 0px 0px;
+            width: 300px;
           }
           .error404_titulo {
             text-transform: uppercase;
@@ -94,7 +95,162 @@
             margin: 15px;
             color: white;
           }
-          @media (max-width: 768px) { }
+             
+     @media (max-width: 991px) {
+     .navbar-light .navbar-toggler {
+     border-color: rgba(0,0,0,.0);
+     }
+     .navbar-light .navbar-toggler-icon {
+     height: 10px;
+     width: 15px;
+     }
+     .nav-link {
+     padding: .05rem .05rem;
+     }
+     .header__flexbox .navbar-expand-lg .navbar-nav .nav-link {
+     padding-right: 1.5rem;
+     padding-left: 1.5rem;
+     }
+     .header__flexbox {
+     font-size: 15px;
+     max-height: 20px;
+     justify-content: start;
+     }
+     .navbar-toggler {
+     padding: 0px;
+     }
+     .titulo {
+     letter-spacing: 8px;
+     font-size: 18px;
+     }
+     }
+
+     @media (max-width: 768px) {
+
+     .logo__ubicacion img {
+     width: 150px;
+     margin-top: 0px;
+     }
+     .navbar-light .navbar-toggler {
+     border-color: rgba(0,0,0,.0);
+     }
+     .navbar-light .navbar-toggler-icon {
+     height: 10px;
+     width: 15px;
+     }
+     .nav-link {
+     padding: .05rem .05rem;
+     }
+     .header__flexbox .navbar-expand-lg .navbar-nav .nav-link {
+     padding-right: 1.5rem;
+     padding-left: 1.5rem;
+     }
+     .header__flexbox {
+     font-size: 9px;
+     max-height: 0px;
+     justify-content: start;
+     }
+     .navbar-toggler {
+     padding: 0px;
+     }
+     .titulo {
+     letter-spacing: 8px;
+     font-size: 14px;
+     }
+     .error404 {
+      margin: 0px;
+     }
+     .error404_img {
+     margin: 0px 0px 0px;
+     width: 200px;
+     }
+     .error404_titulo {
+      font-size: 45px;
+      margin-left: 20px;
+      }
+      .error404_descripcion {
+      font-size: 14px;
+      }
+      .error404_inicio {
+      letter-spacing: 0px;
+      font-size: 14px;
+      margin-right: 20px;
+      }
+      .footer { 
+        height: 40px;
+        bottom: 0%;
+        width: 100%;}
+    
+    .footerFlexBox img { width: 15px;}
+    p { font-size: 12px;}
+    }
+
+     @media (max-width: 420px) {
+     .logo__ubicacion img {
+     width: 100px;
+     margin-top: 0px;
+     }
+     .navbar-light .navbar-toggler {
+     border-color: rgba(0,0,0,.0);
+     }
+     .navbar-light .navbar-toggler-icon {
+     height: 6px;
+     width: 8px;
+     }
+
+     .navbar-nav{
+     width: 100px;
+     }
+     .nav-link {
+     padding: .08rem .08rem;
+     }
+     .header__flexbox .navbar-expand-lg .navbar-nav .nav-link {
+     padding-right: 1.5rem;
+     padding-left: 1.5rem;
+     }
+     .header__flexbox {
+     max-height: 28px;
+     margin-top: -25px;
+     margin-block-end: -5px;
+     font-size: 7.5px;
+     }
+     .navbar-toggler {
+     padding: 0px;
+     }
+     .titulo {
+     letter-spacing: 4px;
+     font-size: 10px;
+     }
+     .error404 {
+      margin: 0px;
+     }
+     .error404_img {
+      width: 130px;
+     }
+     .error404_titulo {
+      font-size: 25px;
+      margin-left: 20px;
+      }
+      .error404_descripcion {
+      font-size: 12px;
+      margin-left: 10px;
+      }
+      .error404_inicio {
+      letter-spacing: 0px;
+      font-size: 11px;
+      margin-right: 20px;
+      }
+      .footer { 
+        height: 40px;
+        bottom: 0%;
+        width: 100%;}
+    
+    .footerFlexBox img { width: 14px;}
+    p { font-size: 11px;}
+    }
+
+     
+
         </style>
         <title>error404</title>
     </head>
@@ -123,7 +279,7 @@
               </nav>
         </header>
         <section class="error404">
-          <img class="error404_img" src="imagenes/homeroerror404.jpg" width="300" alt="foto error404">
+          <img class="error404_img" src="imagenes/homeroerror404.jpg" width="" alt="foto error404">
           <div>
           <h1 class="error404_titulo">" error 404 "</h1>
           <p class="error404_descripcion">La página que intentas solicitar no se encuentra disponible</p>
