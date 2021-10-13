@@ -359,7 +359,7 @@ footer .footerFlexBox p {
   background-size: cover;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .subTitulo {
     margin-top: 20px;
     letter-spacing: 3px;
@@ -600,7 +600,7 @@ footer .footerFlexBox p {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .navbar-light .navbar-toggler {
     border-color: rgba(0, 0, 0, 0);
   }
