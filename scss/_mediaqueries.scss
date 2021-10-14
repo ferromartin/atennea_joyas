@@ -154,13 +154,21 @@
  }
 
  //----------responsive productos----------//
- @media (max-width: 1280px){ 
+ @media (max-width: 1400px){ 
     .productos img {
         width: 230px;
     }
-
- }
- 
+}
+@media (max-width: 1200px){ 
+    .productos img {
+        width: 180px;
+    }
+}
+@media (max-width: 900px){ 
+    .productos img {
+        width: 150px;
+    }
+}
  @media (max-width: 768px) {
     .productos__contenedor { flex-basis: 50%;}
         .productos {
@@ -168,7 +176,7 @@
         flex-direction: row; 
         flex-wrap:wrap ;  }
         .productos img {
-            width: 300px; 
+            width: 280px; 
             margin: 15px;}
             .productos h2 {
                 font-size: 14px;

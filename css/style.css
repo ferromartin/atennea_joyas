@@ -321,7 +321,7 @@ footer .footerFlexBox p {
   text-align: center;
   text-transform: capitalize;
   color: #161688;
-  font-size: 15px;
+  font-size: 17px;
   opacity: 0.5;
 }
 
@@ -524,9 +524,21 @@ footer .footerFlexBox p {
   }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1400px) {
   .productos img {
     width: 230px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .productos img {
+    width: 180px;
+  }
+}
+
+@media (max-width: 900px) {
+  .productos img {
+    width: 150px;
   }
 }
 
@@ -545,7 +557,7 @@ footer .footerFlexBox p {
         flex-wrap: wrap;
   }
   .productos img {
-    width: 300px;
+    width: 280px;
     margin: 15px;
   }
   .productos h2 {
