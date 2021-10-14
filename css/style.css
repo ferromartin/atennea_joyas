@@ -557,7 +557,7 @@ footer .footerFlexBox p {
         flex-wrap: wrap;
   }
   .productos img {
-    width: 280px;
+    width: 220px;
     margin: 15px;
   }
   .productos h2 {
@@ -565,6 +565,11 @@ footer .footerFlexBox p {
   }
   .productos h2 .productos p {
     font-size: 12px;
+  }
+  .productos__contenedor:hover {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    border: 0.5px solid #000;
   }
 }
 

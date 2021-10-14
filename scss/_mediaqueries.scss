@@ -176,7 +176,7 @@
         flex-direction: row; 
         flex-wrap:wrap ;  }
         .productos img {
-            width: 280px; 
+            width: 220px; 
             margin: 15px;}
             .productos h2 {
                 font-size: 14px;
@@ -184,7 +184,11 @@
                    font-size: 12px;
                 }
             }
-         }
+            .productos__contenedor:hover {
+                transform: scale(0.5);
+                border: 0.5px solid #000;
+            }
+ }
          @media (max-width: 375px) {
             .productos {
                 align-items: center;
