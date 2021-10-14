@@ -388,16 +388,19 @@ footer .footerFlexBox p {
 }
 
 @media (max-width: 420px) {
+  .carousel-item {
+    margin-top: 17px;
+  }
   .imagenInicio2 img {
     margin: 0px 0px 0px 0px;
     height: auto;
     max-width: 100%;
   }
   .imagenInicio2 {
-    margin: 20px 0px 20px 0px;
+    margin: 30px 0px 20px 0px;
   }
   .subTitulo {
-    margin-top: 5px;
+    margin-top: 15px;
     letter-spacing: 2px;
     font-size: 10px;
   }
@@ -405,6 +408,7 @@ footer .footerFlexBox p {
     height: 40px;
     bottom: 0%;
     width: 100%;
+    margin-top: 30px;
   }
   .footerFlexBox img {
     width: 15px;
