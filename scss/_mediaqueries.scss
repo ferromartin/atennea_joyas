@@ -154,6 +154,13 @@
  }
 
  //----------responsive productos----------//
+ @media (max-width: 1280px){ 
+    .productos img {
+        width: 230px;
+    }
+
+ }
+ 
  @media (max-width: 768px) {
     .productos__contenedor { flex-basis: 50%;}
         .productos {

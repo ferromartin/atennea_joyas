@@ -524,6 +524,12 @@ footer .footerFlexBox p {
   }
 }
 
+@media (max-width: 1280px) {
+  .productos img {
+    width: 230px;
+  }
+}
+
 @media (max-width: 768px) {
   .productos__contenedor {
     -ms-flex-preferred-size: 50%;
