@@ -546,6 +546,7 @@ footer .footerFlexBox p {
   .productos__contenedor {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
+    max-width: 260px;
   }
   .productos {
     margin-top: 20px;
@@ -555,6 +556,7 @@ footer .footerFlexBox p {
             flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    text-align: center;
   }
   .productos img {
     width: 230px;
