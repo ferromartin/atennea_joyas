@@ -234,8 +234,11 @@
                 border-color: rgba(0,0,0,.0);
             }
             .navbar-light .navbar-toggler-icon {
-                height: 10px;
-                width: 15px;
+                height: 15px;
+                width: 28px;
+            }
+            .navbar {
+                flex-wrap: unset; 
             }
             .nav-link {
                 padding: .05rem .05rem;
@@ -245,7 +248,7 @@
                 padding-left: 1.5rem;
             }
             .header__flexbox {
-                font-size: 15px;
+                font-size: 19px;
                 max-height: 20px;
                 justify-content: start;
             }
@@ -268,8 +271,11 @@
                 border-color: rgba(0,0,0,.0);
             }
             .navbar-light .navbar-toggler-icon {
-                height: 10px;
-                width: 15px;
+                height: 15px;
+                width: 28px;
+            }
+            .navbar {
+                flex-wrap: unset; 
             }
             .nav-link {
                 padding: .05rem .05rem;
@@ -279,9 +285,9 @@
                 padding-left: 1.5rem;
             }
             .header__flexbox {
-                font-size: 9px;
-                max-height: 0px;
-                justify-content: start;
+                max-height: 19px;
+                margin-block-end: -5px;
+                font-size: 16px;
             }
             .navbar-toggler {
                 padding: 0px;
@@ -292,7 +298,7 @@
                 }
         }
         
-        @media (max-width: 420px) {
+        @media (max-width: 510px) {
             .logo__ubicacion img {
                 width: 100px;
                 margin-top: 0px;
@@ -301,10 +307,10 @@
                 border-color: rgba(0,0,0,.0);
             }
             .navbar-light .navbar-toggler-icon {
-                height: 6px;
-                width: 8px;
+                height: 15px;
+                width: 28px;
             }
-            
+            .navbar .container-fluid {flex-wrap:unset; }
             .navbar-nav{ 
                 width: 100px;
                     }
@@ -316,10 +322,9 @@
                 padding-left: 1.5rem;
             }
             .header__flexbox {
-                max-height: 28px;
-                margin-top: -25px;
+                max-height: 19px;
                 margin-block-end: -5px;
-                font-size: 7.5px;
+                font-size: 10px;
             }
             .navbar-toggler {
                 padding: 0px;
