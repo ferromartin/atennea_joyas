@@ -1,20 +1,24 @@
 //----------responsive inicio---------//
 @media (max-width: 992px) {
+    .carousel-item {
+        margin-top: 20px;
+    }
     .subTitulo {
         margin-top: 20px;
         letter-spacing: 3px ;
         font-size: 20px;
     } 
+    .footer{margin-top: 30px; }
 }
 @media (max-width: 768px) {
     .carousel-item {
         max-width: 100%;
         height: auto;
+        margin-top: 20px;
     }
-    
     .imagenInicio2 img {
         margin-block-end: 22px;
-        margin-top: 10px;
+        margin-top: 20px;
     }
     .subTitulo {
         margin-top: 20px;
@@ -22,6 +26,7 @@
         font-size: 18px;
     }
     p { font-size: 12px;}
+    .footer{margin-top: 30px; }
 }
 
 
@@ -227,11 +232,9 @@
         }
 
         //---------responsive nav, titulo, logo---------//
-        @media (max-width: 992px) {
-    
-    
+        @media (max-width: 1000px) {
             .navbar-light .navbar-toggler {
-                border-color: rgba(0,0,0,.0);
+               border-color: rgba(0,0,0,.0);
             }
             .navbar-light .navbar-toggler-icon {
                 height: 15px;
@@ -239,6 +242,7 @@
             }
             .navbar {
                 flex-wrap: unset; 
+                margin-block-end: 2px;
             }
             .nav-link {
                 padding: .05rem .05rem;
@@ -249,7 +253,7 @@
             }
             .header__flexbox {
                 font-size: 19px;
-                max-height: 20px;
+                max-height: 25px;
                 justify-content: start;
             }
             .navbar-toggler {
@@ -275,7 +279,8 @@
                 width: 28px;
             }
             .navbar {
-                flex-wrap: unset; 
+                flex-wrap: unset;
+                margin-block-end: 2px; 
             }
             .nav-link {
                 padding: .05rem .05rem;
@@ -285,7 +290,7 @@
                 padding-left: 1.5rem;
             }
             .header__flexbox {
-                max-height: 19px;
+                max-height: 25px;
                 margin-block-end: -5px;
                 font-size: 16px;
             }
@@ -310,7 +315,9 @@
                 height: 15px;
                 width: 28px;
             }
-            .navbar .container-fluid {flex-wrap:unset; }
+            .navbar .container-fluid {flex-wrap:unset; 
+                margin-block-end: 2px;
+            }
             .navbar-nav{ 
                 width: 100px;
                     }
@@ -322,7 +329,7 @@
                 padding-left: 1.5rem;
             }
             .header__flexbox {
-                max-height: 19px;
+                max-height: 25px;
                 margin-block-end: -5px;
                 font-size: 10px;
             }
