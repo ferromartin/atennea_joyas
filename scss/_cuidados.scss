@@ -4,8 +4,6 @@
     grid-gap: 40px;
     grid-template-columns: 12% 12% 12% 12% 12%;
     max-width: 100%;
-     
-
     .cajas__img {
         background-color: rgb(79, 77, 80);
         color: #fff;
@@ -24,7 +22,6 @@
     text-transform: capitalize;
     padding-left: 30px;
     padding-right: 30px;
-    
     .tips__titulo {
       font-size: 20px;
       margin: 20px ;
@@ -38,9 +35,7 @@
         .tips__video {
             margin: 10px;
             width: 350px;
-            height: 220px;
-                                  
+            height: 220px;            
         }
-
     }
 }

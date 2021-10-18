@@ -2,14 +2,12 @@
     background-image: url(https://p4.wallpaperbetter.com/wallpaper/426/246/444/marble-cool-pictures-wallpaper-preview.jpg);
     background-size: cover;
  }
-
 .productos {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
     text-align: center;
     margin: 30px;
-       
     .productos__contenedor:hover {
         transform: scale(1.1);
         transition: cubic-bezier(.04,.04,.88,.88) .50s;
