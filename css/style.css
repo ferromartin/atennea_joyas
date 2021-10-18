@@ -21,6 +21,10 @@
   margin: 7px 0px 20px;
 }
 
+.body .logo__png {
+  width: 180px;
+}
+
 .header__flexbox {
   display: -webkit-box;
   display: -ms-flexbox;
