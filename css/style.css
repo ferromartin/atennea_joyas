@@ -172,6 +172,10 @@ footer .footerFlexBox p {
   color: white;
 }
 
+.footer__redesSociales {
+  width: 20px;
+}
+
 .imagenFondoContacto {
   background-image: url(https://i.pinimg.com/originals/19/0d/e6/190de6003cc165f17c0f8639281c30c3.jpg);
   background-size: cover;
